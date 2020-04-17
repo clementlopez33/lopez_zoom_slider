@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>MUSIC</title>
+	<meta name="description" content="A simple content slider with depth-like zoom functionality" />
+	<meta name="keywords" content="blueprint, template, slider, zoom, javascript, depth, 3d, css" />
+	<meta name="author" content="Codrops" />
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- Feather Icons -->
+	<link rel="stylesheet" type="text/css" href="fonts/feather/style.css">
+	<!-- General demo styles & header -->
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<!-- Component styles -->
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+	<script src="js/modernizr.custom.js"></script>
+</head>
+<body>
+	<!-- Main container -->
+	<div class="container">
+		<!-- Blueprint header -->
+		<header class="bp-header cf">
+			<span>Lopez Clément<span class="bp-icon bp-icon-about" data-content="The Blueprints are a collection of basic and minimal website concepts, components, plugins and layouts with minimal style for easy adaption and usage, or simply for inspiration."></span></span>
+			<h1>MUSIC</h1>
+			<nav>
+				<a href="http://tympanus.net/Blueprints/FilterableProductGrid/" class="bp-icon bp-icon-prev" data-info="previous Blueprint"><span>Previous Blueprint</span></a>
+				<!--a href="" class="bp-icon bp-icon-next" data-info="next Blueprint"><span>Next Blueprint</span></a-->
+				<a href="http://tympanus.net/codrops/?p=24330" class="bp-icon bp-icon-drop" data-info="back to the Codrops article"><span>back to the Codrops article</span></a>
+				<a href="http://tympanus.net/codrops/category/blueprints/" class="bp-icon bp-icon-archive" data-info="Blueprints archive"><span>Go to the archive</span></a>
+			</nav>
+		</header>
+		<!-- Grid -->
+		<section class="slider">
+			<div class="slide slide--current" data-content="content-1">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="images/1.png" alt="iPhone" />
+						<div class="preview">
+							<img src="images/1.png" alt="iPhone app preview" />
+							<div class="zoomer__area zoomer__area--size-2"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>The Jazzy</span> M</h2>
+			</div>
+			<div class="slide" data-content="content-2">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="images/2.png" alt="iPad Mini" />
+						<div class="preview">
+							<img src="images/2.png" alt="iPad Mini app preview" />
+							<div class="zoomer__area zoomer__area--size-4"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>The West Coast</span> U</h2>
+			</div>
+			<div class="slide" data-content="content-3">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="images/3.png" alt="MacBook" />
+						<div class="preview">
+							<img src="images/3.png" alt="MacBook app preview" />
+							<div class="zoomer__area zoomer__area--size-3"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>The Elegant</span> S</h2>
+			</div>
+			<div class="slide" data-content="content-4">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="4.png" alt="iMac" />
+						<div class="preview">
+							<img src="images/4.png" alt="iMac app preview" />
+							<div class="zoomer__area zoomer__area--size-5"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>The Urban</span> I</h2>
+			</div>
+			<div class="slide" data-content="content-5">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="images/5.png" alt="Apple Watch" />
+						<div class="preview rounded">
+							<img src="images/5.png" alt="Apple Watch app preview" />
+							<div class="zoomer__area zoomer__area--size-1"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>The Digital</span> C</h2>
+			</div>
+			<nav class="slider__nav">
+				<button class="button button--nav-prev"><i class="icon icon--arrow-left"></i><span class="text-hidden">Previous product</span></button>
+				<button class="button button--zoom"><i class="icon icon--zoom"></i><span class="text-hidden">View details</span></button>
+				<button class="button button--nav-next"><i class="icon icon--arrow-right"></i><span class="text-hidden">Next product</span></button>
+			</nav>
+		</section>
+		<!-- /slider-->
+		<section class="content">
+			<div class="content__item" id="content-1">
+				<img class="content__item-img rounded-right" src="images/1.png" alt="Apple Watch Content" />
+				<div class="content__item-inner">
+					<h2>Jazz music</h2>
+					<h3>Late 19th century, New Orleans, </h3>
+					<p>Jazz is a music genre that originated in the African-American communities of New Orleans, United States. It originated in the late 19th and early 20th centuries, and developed from roots in blues and ragtime. Jazz is seen by many as "America's classical music". Since the 1920s Jazz Age, jazz has become recognized as a major form of musical expression. It then emerged in the form of independent traditional and popular musical styles, all linked by the common bonds of African-American and European-American musical parentage with a performance orientation.</p>
+					<p><a href="https://www.apple.com/iphone-6/technology/">Learn more about Jazz music &xrarr;</a></p>
+				</div>
+			</div>
+			<div class="content__item" id="content-2">
+				<img class="content__item-img rounded-right" src="images/2.png" alt="iPad Mini Content" />
+				<div class="content__item-inner">
+					<h2>G-Funk</h2>
+					<h3>Early 1990s, Long Beach, California, United States</h3>
+					<p>G-funk (which uses funk with an artificially altered tempo) incorporates multi-layered and melodic synthesizers, slow hypnotic grooves, a deep bass, background female vocals, the extensive sampling of P-Funk tunes, and a high-pitched portamento saw wave synthesizer lead. The lyrical content depended on the artist and could consist of sex, drugs, violence, vandalism and distrust of and often degradation of women, but also of love for a city, love for friends and relaxing words. There was also a slurred "lazy" or "smooth" way of rapping in order to clarify words and stay in rhythmic cadence.</p>
+					<p><a href="https://www.apple.com/ipad-mini-3/performance/">Learn more about G-Funk &xrarr;</a></p>
+				</div>
+			</div>
+			<div class="content__item" id="content-3">
+				<img class="content__item-img rounded-right" src="images/3.png" alt="MacBook Content" />
+				<div class="content__item-inner">
+					<h2>Classical music</h2>
+					<h3>Western art music from 1750 to 1820,</h3>
+					<p>Classical music is art music produced or rooted in the traditions of Western culture, including both liturgical (religious) and secular music. While a more precise term is also used to refer to the period from 1750 to 1820 (the Classical period), this article is about the broad span of time from before the 6th century AD to the present day, which includes the Classical period and various other periods. The central norms of this tradition became codified between 1550 and 1900, which is known as the common-practice period.</p>
+					<p><a href="https://www.apple.com/macbook/design/">Learn more about Classical music &xrarr;</a></p>
+				</div>
+			</div>
+			<div class="content__item" id="content-4">
+				<img class="content__item-img rounded-right" src="images/4.png" alt="iMac Content" />
+				<div class="content__item-inner">
+					<h2>Rap music</h2>
+					<h3>Early 1970s, The Bronx, New York City, New York, United States,</h3>
+					<p>Hip hop music, also called hip-hop or rap music, is a genre of popular music developed in the United States by inner-city African Americans and Latino Americans in the Bronx borough of New York City in the 1970s. It consists of a stylized rhythmic music that commonly accompanies rapping, a rhythmic and rhyming speech that is chanted. It developed as part of hip hop culture, a subculture defined by four key stylistic elements: MCing/rapping, DJing/scratching with turntables, break dancing, and graffiti writing. Other elements include sampling beats or bass lines from records (or synthesized beats and sounds), and rhythmic beatboxing. While often used to refer solely to rapping, "hip hop" more properly denotes the practice of the entire subculture.</p>
+					<p><a href="https://www.apple.com/imac/built-in-apps/">Learn more about Rap music &xrarr;</a></p>
+				</div>
+			</div>
+			<div class="content__item" id="content-5">
+				<img class="content__item-img rounded-right" src="images/5.png" alt="Apple Watch Content" />
+				<div class="content__item-inner">
+					<h2>Electronic music</h2>
+					<h3>Late 19th and early 20th century, Europe and the United States,</h3>
+					<p>Electronic music is music that employs electronic musical instruments, digital instruments and circuitry-based music technology. In general, a distinction can be made between sound produced using electromechanical means (electroacoustic music), and that produced using electronics only. Electromechanical instruments include mechanical elements, such as strings, hammers, and so on, and electric elements, such as magnetic pickups, power amplifiers and loudspeakers. Examples of electromechanical sound producing devices include the telharmonium, Hammond organ, and the electric guitar, which are typically made loud enough for performers and audiences to hear with an instrument amplifier and speaker cabinet. </p>
+					<p><a href="https://www.apple.com/watch/new-ways-to-connect/">Learn more about Electronic music &xrarr;</a></p>
+				</div>
+			</div>
+			<button class="button button--close"><i class="icon icon--circle-cross"></i><span class="text-hidden">Close content</span></button>
+		</section>
+	</div>
+	<script src="js/classie.js"></script>
+	<script src="js/dynamics.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
